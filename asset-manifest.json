@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/monikanikolova/angular-test-app/static/css/main.8c6517f1.chunk.css",
+    "main.js": "/monikanikolova/angular-test-app/static/js/main.c3b90f7a.chunk.js",
+    "main.js.map": "/monikanikolova/angular-test-app/static/js/main.c3b90f7a.chunk.js.map",
+    "runtime~main.js": "/monikanikolova/angular-test-app/static/js/runtime~main.ba86ae63.js",
+    "runtime~main.js.map": "/monikanikolova/angular-test-app/static/js/runtime~main.ba86ae63.js.map",
+    "static/js/2.10794171.chunk.js": "/monikanikolova/angular-test-app/static/js/2.10794171.chunk.js",
+    "static/js/2.10794171.chunk.js.map": "/monikanikolova/angular-test-app/static/js/2.10794171.chunk.js.map",
+    "index.html": "/monikanikolova/angular-test-app/index.html",
+    "precache-manifest.d5dfc0579c71d92e1ac0b9daab1209a4.js": "/monikanikolova/angular-test-app/precache-manifest.d5dfc0579c71d92e1ac0b9daab1209a4.js",
+    "service-worker.js": "/monikanikolova/angular-test-app/service-worker.js",
+    "static/css/main.8c6517f1.chunk.css.map": "/monikanikolova/angular-test-app/static/css/main.8c6517f1.chunk.css.map"
+  }
+}
