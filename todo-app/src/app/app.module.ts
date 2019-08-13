@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, Injector } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { createCustomElement } from '@angular/elements';
 // import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
@@ -15,6 +16,17 @@ import { AppComponent } from './app.component';
     // HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [],
+  entryComponents: [
+    AppComponent
+  ]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(private injector: Injector) {
+
+  }
+  ngDoBootstrap() {
+    const el = createCustomElement(AppComponent, {injector: this.injector});
+    customElements.define('app-root', el);
+  }
+ }

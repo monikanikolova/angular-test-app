@@ -38,3 +38,5 @@ export class AppComponent {
     }
   }
 }
+
+// <app-root></app-root>
