@@ -10,6 +10,8 @@ import { Link } from 'react-router-dom';
                     <ul className="right">
                         <li><Link to="/"> Home</Link></li>
                         <li><Link to="/angular"> Angular</Link></li>
+                        <li><Link to="/angular-two"> Angular 2</Link></li>
+
                     </ul>
                 </div>
             </nav>  

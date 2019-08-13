@@ -14,7 +14,7 @@ form {
 }
 form h1 {
   font-family: "Raleway";
-  color: #851e3e;
+  color: #2ab7ca;
 }
 form input[type="text"]::placeholder {
   font-family: "Raleway";
@@ -25,7 +25,7 @@ form .data {
 }
 form .data li {
   background: #fff;
-  border-left: 4px solid #851e3e;
+  border-left: 4px solid #2ab7ca;
   padding: 1em;
   margin: 1em auto;
   color: #666;
@@ -37,7 +37,7 @@ form .data li i {
   cursor: pointer;
 }
 form .input-group-text {
-  background: #851e3e;
+  background: #2ab7ca;
   border-radius: 50%;
   width: 5em;
   height: 5em;
