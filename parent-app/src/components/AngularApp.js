@@ -5,7 +5,6 @@ class AngularApp extends Component {
     return (
       <div>
         <app-root></app-root>
-        <app-two-root></app-two-root>
       </div>
     );
   }
